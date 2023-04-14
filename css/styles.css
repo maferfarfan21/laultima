@@ -3212,6 +3212,11 @@ img.u-pull-left {
     position            : relative;
 }
 
+.icon{
+    width: 40px;
+    height: 40px;
+}
+
 .s-intro__slide::before {
     display        : block;
     content        : "";
@@ -3310,17 +3315,33 @@ img.u-pull-left {
  * -------------------------------------------------------------------- */
 .s-intro__header {
     width    : 100%;
-    height   : var(--header-height);
+    height   : 100%;
+  
     position : absolute;
     top      : 0;
     left     : 0;
+   
 }
 
 .s-intro__logo {
+    background-color: rgb(255, 255, 255);
+    height: 45px;
     z-index  : 4;
     position : absolute;
-    top      : 2.4rem;
-    left     : 4rem;
+    padding: 4rem 0 4rem 0;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    padding: 3rem;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.s-intro__logo .logo_alquimia{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
 }
 
 .s-intro__logo a {
@@ -3771,9 +3792,7 @@ img.u-pull-left {
         --header-height : 8rem;
     }
 
-    .s-intro__logo {
-        left : calc(6vw + var(--gutter));
-    }
+   
 
     .s-intro__notify {
         right : calc(6vw);
