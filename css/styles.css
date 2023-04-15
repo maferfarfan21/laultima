@@ -3842,9 +3842,7 @@ img.u-pull-left {
         --logo-width : 70px;
     }
 
-    .s-intro__logo {
-        left : calc(6vw);
-    }
+   
 
     .s-intro__content {
         padding-bottom : 12rem;
