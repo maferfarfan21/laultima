@@ -3790,7 +3790,8 @@ img.u-pull-left {
         line-height : var(--vspace-0_875);
     }
 
-    .s-intro__scroll a {
+    .s-intro__scroll  {
+        padding-bottom: 12rem;
       
     }
 
