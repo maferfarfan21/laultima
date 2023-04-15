@@ -3615,8 +3615,8 @@ img.u-pull-left {
     width            : 100%;
     transform-origin : bottom center;
     position         : absolute;
-    bottom           : 10;
-    padding-bottom: 12rem;
+    padding-bottom           : 30rem;
+   
 }
 
 .s-intro__scroll a {
@@ -3791,7 +3791,7 @@ img.u-pull-left {
     }
 
     .s-intro__scroll  {
-        padding-bottom: 12rem;
+        padding-bottom: 30rem;
       
     }
 
@@ -3835,6 +3835,10 @@ img.u-pull-left {
 
     .s-intro__content-bottom-block:last-child {
         display : none;
+    }
+    .s-intro__scroll  {
+        padding-bottom: 40rem;
+      
     }
 }
 
