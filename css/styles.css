@@ -3615,7 +3615,7 @@ img.u-pull-left {
     width            : 100%;
     transform-origin : bottom center;
     position         : absolute;
-    bottom           : 0;
+    bottom           : 10;
     padding-bottom: 12rem;
 }
 
