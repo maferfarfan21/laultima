@@ -3612,11 +3612,21 @@ img.u-pull-left {
  * -------------------------------------------------------------------- */
 .s-intro__scroll {
     z-index          : 3;
+    width: 100%;
+    height: 100%;
+ 
     width            : 100%;
     transform-origin : bottom center;
     position         : absolute;
     padding-bottom           : 30rem;
    
+}
+#hidden{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    position         : absolute;
+    z-index          : 3;
 }
 
 .s-intro__scroll a {
@@ -3631,7 +3641,7 @@ img.u-pull-left {
     text-transform : uppercase;
    
    
-    color          : rgba(255, 216, 20, 0);
+    color          : rgb(255, 216, 20);
     position       : relative;
 }
 
