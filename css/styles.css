@@ -3631,7 +3631,7 @@ img.u-pull-left {
     text-transform : uppercase;
    
    
-    color          : rgba(255, 216, 20, 0.882);
+    color          : rgba(255, 216, 20, 0);
     position       : relative;
 }
 
@@ -3643,7 +3643,7 @@ img.u-pull-left {
 
 .s-intro__scroll a:focus,
 .s-intro__scroll a:hover {
-    color : white;
+    color : rgba(255, 255, 255, 0);
 }
 
 .s-intro__scroll a::before {
