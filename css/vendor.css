@@ -362,7 +362,7 @@ pre[class*="language-"] {
 
 .swiper-button-prev.swiper-button-black,
 .swiper-button-next.swiper-button-black {
-    --swiper-navigation-color : #000000;
+    --swiper-navigation-color : #00000000;
 }
 
 .swiper-button-lock {
