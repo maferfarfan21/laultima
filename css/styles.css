@@ -668,7 +668,8 @@ body {
 }
 
 body {
-    background-image: url(../images/nnm.gif);
+    background-image: url(../images/nnm.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     
@@ -3518,14 +3519,15 @@ img.u-pull-left {
     width            : 90vw;
     max-width        : 34rem;
     border-radius    : var(--border-radius);
-    background-image            : url(../images/nnm.gif);
-    position: fixed;
+    background-image: url(../images/nnm.jpg);
     box-shadow       : 0 4px 8px rgba(0, 0, 0, 0.1);
     opacity          : 0;
     visibility       : hidden;
     transform        : scale(0.8);
     transition       : all 0.3s 0s;
     position         : relative;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .ss-modal__close {
